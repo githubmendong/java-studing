@@ -1,3 +1,5 @@
+//문자 배열(char[])을 입력 받아
+//공백을 ‘,’로 변환하는 메소드와 char[]을 입력 받아 출력하는 메소드를 만드세요.
 package prob03;
 
 public class Prob03 {
@@ -12,6 +14,16 @@ public class Prob03 {
 
 		// 수정된 배열 원소 출력
 		printCharArray(c);
+	}
+
+	private static void replaceSpace(char[] c) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void printCharArray(char[] c) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
