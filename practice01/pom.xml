@@ -7,18 +7,9 @@
 		<artifactId>java-studing</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.target>17</maven.compiler.target>
-	</properties>
-
-	<dependencies>
-
-	</dependencies>
-
-	<artifactId>chapter03</artifactId>
+	<artifactId>practice01</artifactId>
+	
+	<build>
+		<finalName>practice01</finalName>
+	</build>
 </project>
