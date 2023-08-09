@@ -4,5 +4,5 @@ public class Good {
 	String name;
 	int price;
 	int countStock;
-	int coundSold;
+	int countSold;
 }
