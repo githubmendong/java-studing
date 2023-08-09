@@ -17,6 +17,7 @@ public class GoodApp2 {
 //		good.countStock = 10;
 		
 		//private 는 같은 클래스 에서만 접근 가능하다.(오류
+		//goods.countSold = 20;
 		
 	}
 
