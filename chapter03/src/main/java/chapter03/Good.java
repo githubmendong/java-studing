@@ -51,6 +51,20 @@ public class Good {
 	public void setCountSold(int countSold) {
 		this.countSold = countSold;
 	}
+
+	public void showInfo() {
+		System.out.println(
+				"상품" + name +
+				"가격" + price +
+				"재고" + countStock +
+				"개수" + countSold
+				);
+		
+	}
+
+	public int calcDiscountPrice(double discountRate) {
+		return (int)(price * discountRate);
+	}
 	
 	
 }

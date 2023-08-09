@@ -21,12 +21,13 @@ public class GoodApp {
 		Good goods3 = new Good();
 
 		System.out.println(Good.countOfGood);
-		System.out.println(
-							"상품" + camera.getName() +
-							"가격" + camera.getPrice() +
-							"재고" + camera.getCountStock() +
-							"개수" + camera.getCountSold()
-							);
+		
+		camera.showInfo();
+		camera.setPrice(50000);
+		int discountPrice = camera.calcDiscountPrice(0.5);
+		System.out.println(discountPrice);
+		
+		
 //		if(10-1 == 9) {
 //			int i = 10;
 //		}
