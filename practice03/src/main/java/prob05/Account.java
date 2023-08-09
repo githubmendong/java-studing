@@ -4,7 +4,6 @@ public class Account {
 
 	public Account(String string) {
 		// TODO Auto-generated constructor stub
-		this.
 	}
 
 	public String getAccountNo() {
@@ -18,6 +17,14 @@ public class Account {
 	}
 
 	public void save(int i) {
+
+		
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+	public void deposit(int i) {
 		// TODO Auto-generated method stub
 		
 	}
