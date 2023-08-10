@@ -34,10 +34,12 @@ public class GoodsApp {
 
 			goods[i] = new Goods(name, price, count);
 		}
+
 		// 상품 출력
 		for (Goods good : goods) {
 			System.out.println(good.getName() + "(가격:" + good.getPrice() + "원)이 " + good.getCount() + "개 입고 되었습니다.");
 		}
+
 		// 자원정리
 		scanner.close();
 	}

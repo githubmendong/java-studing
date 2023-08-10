@@ -27,7 +27,10 @@ public class GoodApp {
 		int discountPrice = camera.calcDiscountPrice(0.5);
 		System.out.println(discountPrice);
 		
-		
+		//생성자생성
+		//객체생성은 파라미터만 다르게 해서 일관성 있게 생성 
+		Good tv = new Good("TV", 40000, 10, 20);
+		tv.showInfo();
 //		if(10-1 == 9) {
 //			int i = 10;
 //		}
