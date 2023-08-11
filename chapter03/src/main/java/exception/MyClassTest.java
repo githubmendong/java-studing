@@ -12,7 +12,7 @@ public class MyClassTest {
 //			e.printStackTrace();
 //		} catch (MyException e) {
 //			e.printStackTrace();q
-//		}ㅁAs
+//		}ㅁAsa
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
