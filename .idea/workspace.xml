@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="5일차 Object II">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/CalenderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/DateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/SingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/StringTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/StringTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/StringTest03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/WrapperClassTerst02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/WrapperClassTest01.java" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="5일차 Date">
+      <change afterPath="$PROJECT_DIR$/Practice05/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice05/src/main/java/com/poscodx/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,12 +89,14 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/SDH/IdeaProjects/java-studing/Practice05/src/main/java/com/poscodx/Main.java",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\Practice05\src\main\java" />
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\chapter04\src\main\java\chapter04" />
     </key>
   </component>
@@ -131,7 +130,7 @@
       <updated>1691570999542</updated>
       <workItem from="1691571000612" duration="6241000" />
       <workItem from="1691712200456" duration="1746000" />
-      <workItem from="1691714033889" duration="17741000" />
+      <workItem from="1691714033889" duration="18442000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -157,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691722335667</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="5일차 Date">
+      <option name="closed" value="true" />
+      <created>1691737528057</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691737528057</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +175,18 @@
     <MESSAGE value="test" />
     <MESSAGE value="4일차" />
     <MESSAGE value="5일차 Object II" />
-    <option name="LAST_COMMIT_MESSAGE" value="5일차 Object II" />
+    <MESSAGE value="5일차 Date" />
+    <option name="LAST_COMMIT_MESSAGE" value="5일차 Date" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Practice05/src/main/java/com/poscodx/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
