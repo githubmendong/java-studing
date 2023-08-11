@@ -7,6 +7,7 @@ public class ObjectTest01 {
 		
 		Class klass = point.getClass();
 		System.out.println(klass);
+		//test
 	}
 
 }

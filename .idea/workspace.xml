@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/chapter03/src/main/java/tv/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/src/main/java/tv/TV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/src/main/java/tv/WatchTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/src/main/java/tv/WatchTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/ObjectTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/ObjectTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-studing.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +22,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "githubmendong"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="901a2e15-a143-4ba1-9635-4d2742c3167e" />
+        <option name="url" value="https://github.com/githubmendong/java-studing.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2TjytZImMiB19cb3jbrkMQU4DB7" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -33,11 +66,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "14",
     "last_opened_file_path": "/Users/sindongheon/eclipse-workspace/java-studing",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -50,6 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1691570999542</updated>
       <workItem from="1691571000612" duration="6241000" />
+      <workItem from="1691712200456" duration="1746000" />
+      <workItem from="1691714033889" duration="1255000" />
     </task>
     <servers />
   </component>
