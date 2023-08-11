@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="4일차">
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/HashSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/ObjectTest03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/Rect.java" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="5일차 Object II">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/CalenderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/DateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/StringTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/StringTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/StringTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/WrapperClassTerst02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/WrapperClassTest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +29,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -84,6 +96,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\chapter04\src\main\java\chapter04" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ObjectTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter04.ObjectTest03" />
@@ -114,7 +131,7 @@
       <updated>1691570999542</updated>
       <workItem from="1691571000612" duration="6241000" />
       <workItem from="1691712200456" duration="1746000" />
-      <workItem from="1691714033889" duration="7091000" />
+      <workItem from="1691714033889" duration="17741000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -132,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691718952779</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="5일차 Object II">
+      <option name="closed" value="true" />
+      <created>1691722335667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691722335667</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +167,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <MESSAGE value="4일차" />
-    <option name="LAST_COMMIT_MESSAGE" value="4일차" />
+    <MESSAGE value="5일차 Object II" />
+    <option name="LAST_COMMIT_MESSAGE" value="5일차 Object II" />
   </component>
 </project>
