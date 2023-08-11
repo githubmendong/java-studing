@@ -12,8 +12,8 @@ public class MyClassTest {
 //			e.printStackTrace();
 //		} catch (MyException e) {
 //			e.printStackTrace();
-//		}
-			
+//		}ㅁ
+		
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
