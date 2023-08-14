@@ -20,7 +20,7 @@ public class MainApp {
 
 	public static void main(String[] args) {
 		try {
-			MyStack stack = new MyStack(3);
+			MyStack stack = new MyStack(5); // 3 대신 5로 변경
 			stack.push("Hello");
 			stack.push("World");
 			stack.push("!!!");
@@ -47,3 +47,6 @@ public class MainApp {
 	}
 
 }
+
+
+
