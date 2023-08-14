@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="개인학습 TEST">
-      <change afterPath="$PROJECT_DIR$/Practice05/src/main/java/prob5/MyStackException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="Prob 5 오류 해결">
+      <change afterPath="$PROJECT_DIR$/Practice05/src/main/java/prob6/RectTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice05/src/main/java/prob6/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice05/src/main/java/prob6/Resizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice05/src/main/java/prob6/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice05/src/main/java/prob5/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice05/src/main/java/prob5/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice05/src/main/java/prob5/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice05/src/main/java/prob5/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_sdh_study/src/main/java/itJava/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_sdh_study/src/main/java/itJava/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice05/src/main/java/prob6/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice05/src/main/java/prob6/ShapeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +170,7 @@
       <workItem from="1691714033889" duration="25772000" />
       <workItem from="1691753163594" duration="4482000" />
       <workItem from="1692003458881" duration="1639000" />
-      <workItem from="1692015738189" duration="1296000" />
+      <workItem from="1692015738189" duration="3522000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -252,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691916052214</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Prob 5 오류 해결">
+      <option name="closed" value="true" />
+      <created>1692017068577</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692017068577</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +278,8 @@
     <MESSAGE value="5일차 prob3" />
     <MESSAGE value="5일차 prob4" />
     <MESSAGE value="개인학습 TEST" />
-    <option name="LAST_COMMIT_MESSAGE" value="개인학습 TEST" />
+    <MESSAGE value="Prob 5 오류 해결" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prob 5 오류 해결" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
