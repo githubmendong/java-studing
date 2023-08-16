@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="6일차 배열리스트">
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/collection/HashSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/collection/HashSetTest02.java" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="6일차 collection framework - 2">
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/collection/Gugudan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/collection/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/collection/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/collection/StackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +170,7 @@
       <workItem from="1691753163594" duration="4482000" />
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
-      <workItem from="1692144049973" duration="4863000" />
+      <workItem from="1692144049973" duration="7207000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -298,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692153258047</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="6일차 collection framework - 2">
+      <option name="closed" value="true" />
+      <created>1692154822156</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692154822156</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +331,8 @@
     <MESSAGE value="6일차 캘린더" />
     <MESSAGE value="6일차 백터 링크리스트" />
     <MESSAGE value="6일차 배열리스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="6일차 배열리스트" />
+    <MESSAGE value="6일차 collection framework - 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="6일차 collection framework - 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
