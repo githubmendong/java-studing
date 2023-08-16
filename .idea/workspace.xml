@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="Prob 6 오류 해결">
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="6일차 캘린더">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/CalenderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/CalenderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,7 @@
       <workItem from="1691753163594" duration="4482000" />
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
-      <workItem from="1692144049973" duration="1320000" />
+      <workItem from="1692144049973" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -265,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692021478093</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="6일차 캘린더">
+      <option name="closed" value="true" />
+      <created>1692145425580</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692145425580</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +292,8 @@
     <MESSAGE value="개인학습 TEST" />
     <MESSAGE value="Prob 5 오류 해결" />
     <MESSAGE value="Prob 6 오류 해결" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prob 6 오류 해결" />
+    <MESSAGE value="6일차 캘린더" />
+    <option name="LAST_COMMIT_MESSAGE" value="6일차 캘린더" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
