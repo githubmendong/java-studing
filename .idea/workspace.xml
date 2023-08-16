@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="6일차 캘린더">
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/collection/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/collection/VectorTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/collection/VectorTest02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +169,7 @@
       <workItem from="1691753163594" duration="4482000" />
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
-      <workItem from="1692144049973" duration="1408000" />
+      <workItem from="1692144049973" duration="3425000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -272,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692145425580</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="6일차 캘린더">
+      <option name="closed" value="true" />
+      <created>1692145465766</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692145465766</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
