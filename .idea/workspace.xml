@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="6일차 io - 2">
-      <change afterPath="$PROJECT_DIR$/finaltest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finaltest/src/main/java/com/poscodx/Main.java" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="6일차 finalTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finaltest/src/main/java/com/poscodx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/finaltest/src/main/java/com/poscodx/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +91,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/SDH/IdeaProjects/java-studing/finaltest/src/main/java/com/poscodx/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
@@ -103,12 +104,13 @@
       <recent name="prob4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\finaltest\src\main\java\com\poscodx" />
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\chapter04" />
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\Practice05\src\main\java" />
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\chapter04\src\main\java\chapter04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileCopy">
+  <component name="RunManager">
     <configuration name="FileCopy" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.FileCopy" />
       <module name="chapter04" />
@@ -183,7 +185,8 @@
       <workItem from="1691753163594" duration="4482000" />
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
-      <workItem from="1692144049973" duration="12944000" />
+      <workItem from="1692144049973" duration="13605000" />
+      <workItem from="1692172035285" duration="957000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -353,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692169554557</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="6일차 finalTest">
+      <option name="closed" value="true" />
+      <created>1692170010943</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692170010943</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +391,8 @@
     <MESSAGE value="6일차 QueueTest" />
     <MESSAGE value="6일차 io - 1" />
     <MESSAGE value="6일차 io - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="6일차 io - 2" />
+    <MESSAGE value="6일차 finalTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="6일차 finalTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
