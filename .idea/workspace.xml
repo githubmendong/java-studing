@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="7일차 io-3">
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/io/PhoneList02.java" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="7일차 io - fin">
+      <change afterPath="$PROJECT_DIR$/network/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/main/java/test/LocalHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/main/java/util/NSLookup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +95,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/SDH/IdeaProjects/java-studing/tcpserver/src/main/java/com/poscodx/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/SDH/IdeaProjects/java-studing/network/src/main/java/com/poscodx/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -186,7 +191,7 @@
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
       <workItem from="1692144049973" duration="13605000" />
-      <workItem from="1692172035285" duration="15466000" />
+      <workItem from="1692172035285" duration="18844000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -396,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692236950997</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="7일차 io - fin">
+      <option name="closed" value="true" />
+      <created>1692238042143</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1692238042143</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +440,8 @@
     <MESSAGE value="6일차 finalTest - Prob 01" />
     <MESSAGE value="7일차 Generic Class &amp; Method" />
     <MESSAGE value="7일차 io-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="7일차 io-3" />
+    <MESSAGE value="7일차 io - fin" />
+    <option name="LAST_COMMIT_MESSAGE" value="7일차 io - fin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

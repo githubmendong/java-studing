@@ -28,5 +28,6 @@
       <module>java_sdh_study</module>
       <module>finaltest</module>
       <module>tcpserver</module>
+      <module>network</module>
   </modules>
 </project>
