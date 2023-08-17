@@ -28,6 +28,16 @@ public class VectorTest02 {
             System.out.println(s);
         }
 
+//        for (String s : list) {
+//            System.out.println(s);
+//        }
+//
+//        for (int i = 0; i < list.size(); i++) {
+//            String s = list.get(i);
+//            System.out.println(s);
+//        }
+
+
         //순회3
         for (String s : list){
             System.out.println(s);

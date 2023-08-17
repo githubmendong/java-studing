@@ -27,5 +27,6 @@
       <module>Practice05</module>
       <module>java_sdh_study</module>
       <module>finaltest</module>
+      <module>tcpserver</module>
   </modules>
 </project>

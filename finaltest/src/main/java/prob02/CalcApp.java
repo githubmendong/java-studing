@@ -12,9 +12,9 @@
 //        두 정수와 연산자를 입력하시오 >> 3 4 +
 //        7
 
-
-
 package prob02;
+
+import prob06.Add;
 
 import java.util.Scanner;
 
@@ -41,9 +41,16 @@ public class CalcApp {
 			int lValue = Integer.parseInt( tokens[ 0 ] );
 			int rValue = Integer.parseInt( tokens[ 1 ] );
 
-			com.poscodx.prob02.Arithmetic arithmetic = null;
+			prob02.Arithmetic arithmetic = null;
 
 			/* 코드 작성 */
+            switch (tokens[2]){
+                case "+" :
+                    arithmetic = new Add();
+                    break;
+            }
+
+
 
 			int result = arithmetic.calculate(lValue, rValue);
 			System.out.println( ">> " + result );
