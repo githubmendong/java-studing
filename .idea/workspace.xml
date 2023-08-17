@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="7일차 Generic Class &amp; Method">
-      <change afterPath="$PROJECT_DIR$/chapter04/phone.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/io/KeyboardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/io/PhoneList01.java" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="7일차 io-3">
+      <change afterPath="$PROJECT_DIR$/chapter04/src/main/java/io/PhoneList02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +186,7 @@
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
       <workItem from="1692144049973" duration="13605000" />
-      <workItem from="1692172035285" duration="14468000" />
+      <workItem from="1692172035285" duration="15466000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -390,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692232971888</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="7일차 io-3">
+      <option name="closed" value="true" />
+      <created>1692236950997</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1692236950997</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +426,8 @@
     <MESSAGE value="6일차 finalTest" />
     <MESSAGE value="6일차 finalTest - Prob 01" />
     <MESSAGE value="7일차 Generic Class &amp; Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="7일차 Generic Class &amp; Method" />
+    <MESSAGE value="7일차 io-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="7일차 io-3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
