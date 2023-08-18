@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="7일차 InetAddress finish">
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/Practice01/localHost.java" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="7일차 과제">
+      <change afterPath="$PROJECT_DIR$/network/src/main/java/test/TCPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +94,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -186,7 +186,7 @@
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
       <workItem from="1692144049973" duration="13605000" />
-      <workItem from="1692172035285" duration="20616000" />
+      <workItem from="1692172035285" duration="30274000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -412,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692255032639</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="7일차 과제">
+      <option name="closed" value="true" />
+      <created>1692257515933</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1692257515933</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +428,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="test" />
     <MESSAGE value="4일차" />
     <MESSAGE value="5일차 Object II" />
     <MESSAGE value="5일차 Date" />
@@ -445,7 +452,8 @@
     <MESSAGE value="7일차 io-3" />
     <MESSAGE value="7일차 io - fin" />
     <MESSAGE value="7일차 InetAddress finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="7일차 InetAddress finish" />
+    <MESSAGE value="7일차 과제" />
+    <option name="LAST_COMMIT_MESSAGE" value="7일차 과제" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
