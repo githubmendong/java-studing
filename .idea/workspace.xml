@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="8일차 네트워크 통신">
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/echo/EchoRequestHandler.java" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="8일차 WebServer #1">
+      <change afterPath="$PROJECT_DIR$/java_sdh_study/src/main/java/Network_Input_Output/Chapter19_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-11__10_10__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-11__10_12__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-11_오전_10_10_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-08-11_오전_10_12_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +105,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Network_Input_Output" />
       <recent name="prob5" />
       <recent name="prob4" />
     </key>
@@ -190,7 +195,7 @@
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
       <workItem from="1692144049973" duration="13605000" />
-      <workItem from="1692172035285" duration="49360000" />
+      <workItem from="1692172035285" duration="52337000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -464,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692340575197</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="8일차 WebServer #1">
+      <option name="closed" value="true" />
+      <created>1692344766808</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1692344766808</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="5일차 prob2" />
     <MESSAGE value="5일차 prob3" />
     <MESSAGE value="5일차 prob4" />
     <MESSAGE value="개인학습 TEST" />
@@ -497,7 +509,8 @@
     <MESSAGE value="8일차 TCP echo server finish" />
     <MESSAGE value="8일차 Thread, DigitalThread" />
     <MESSAGE value="8일차 네트워크 통신" />
-    <option name="LAST_COMMIT_MESSAGE" value="8일차 네트워크 통신" />
+    <MESSAGE value="8일차 WebServer #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="8일차 WebServer #1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
