@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="8일차 Thread, DigitalThread">
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/thread/AlphabetThead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/thread/EchoRequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/thread/ThreadEX02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/thread/ThreadEx03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/thread/UpperCaseAlphabet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/thread/UpperCaseAlphabetRunnablelmpl.java" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="8일차 네트워크 통신">
+      <change afterPath="$PROJECT_DIR$/network/src/main/java/echo/EchoRequestHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,11 +105,11 @@
       <recent name="prob4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\network" />
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\network\src\main\java" />
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\finaltest\src\main\java\com\poscodx" />
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\chapter04" />
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\Practice05\src\main\java" />
-      <recent name="C:\Users\SDH\IdeaProjects\java-studing\chapter04\src\main\java\chapter04" />
     </key>
   </component>
   <component name="RunManager">
@@ -195,7 +190,7 @@
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
       <workItem from="1692144049973" duration="13605000" />
-      <workItem from="1692172035285" duration="45996000" />
+      <workItem from="1692172035285" duration="49360000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -461,7 +456,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692333394344</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="8일차 네트워크 통신">
+      <option name="closed" value="true" />
+      <created>1692340575197</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1692340575197</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +472,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="5일차 prob1" />
     <MESSAGE value="5일차 prob2" />
     <MESSAGE value="5일차 prob3" />
     <MESSAGE value="5일차 prob4" />
@@ -494,7 +496,8 @@
     <MESSAGE value="8일차 TCP Server finish" />
     <MESSAGE value="8일차 TCP echo server finish" />
     <MESSAGE value="8일차 Thread, DigitalThread" />
-    <option name="LAST_COMMIT_MESSAGE" value="8일차 Thread, DigitalThread" />
+    <MESSAGE value="8일차 네트워크 통신" />
+    <option name="LAST_COMMIT_MESSAGE" value="8일차 네트워크 통신" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
