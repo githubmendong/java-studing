@@ -29,5 +29,6 @@
       <module>finaltest</module>
       <module>tcpserver</module>
       <module>network</module>
+      <module>network/httpd</module>
   </modules>
 </project>

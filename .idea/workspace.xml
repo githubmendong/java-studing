@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="8일차 TCP Programming I">
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="8일차 TCP Server finish">
+      <change afterPath="$PROJECT_DIR$/network/httpd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/main/java/echo/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/main/java/echo/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/main/java/test/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/main/java/thread/DigitalThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/main/java/thread/ThreadEx01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/test/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/test/TCPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +92,14 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
+    "jdk.selected.JAVA_MODULE": "14",
     "last_opened_file_path": "/Users/sindongheon/eclipse-workspace/java-studing",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/SDH/IdeaProjects/java-studing/network/src/main/java/com/poscodx/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/SDH/IdeaProjects/java-studing/network/httpd/src/main/java/com/poscodx/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -166,9 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.ObjectTest03" />
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.ObjectTest03" />
-        <item itemvalue="Application.Sort" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +197,7 @@
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
       <workItem from="1692144049973" duration="13605000" />
-      <workItem from="1692172035285" duration="33714000" />
+      <workItem from="1692172035285" duration="40385000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -429,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692320117001</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="8일차 TCP Server finish">
+      <option name="closed" value="true" />
+      <created>1692323597805</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1692323597805</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +455,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="5일차 Object II" />
     <MESSAGE value="5일차 Date" />
     <MESSAGE value="5일차 Practice05" />
     <MESSAGE value="5일차 prob1" />
@@ -462,7 +479,8 @@
     <MESSAGE value="7일차 InetAddress finish" />
     <MESSAGE value="7일차 과제" />
     <MESSAGE value="8일차 TCP Programming I" />
-    <option name="LAST_COMMIT_MESSAGE" value="8일차 TCP Programming I" />
+    <MESSAGE value="8일차 TCP Server finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="8일차 TCP Server finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

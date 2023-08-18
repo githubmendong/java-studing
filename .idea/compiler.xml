@@ -14,6 +14,7 @@
         <module name="finaltest" />
         <module name="tcpserver" />
         <module name="java_sdh_study" />
+        <module name="httpd" />
         <module name="practices02" />
         <module name="chapter03" />
         <module name="chapter04" />
