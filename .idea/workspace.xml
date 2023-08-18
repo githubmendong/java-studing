@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="8일차 TCP Server finish">
-      <change afterPath="$PROJECT_DIR$/network/httpd/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/echo/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/echo/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/test/TCPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/thread/DigitalThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/thread/ThreadEx01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="8일차 TCP echo server finish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/thread/DigitalThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/thread/DigitalThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/thread/ThreadEx01.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/thread/ThreadEx01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +190,7 @@
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
       <workItem from="1692144049973" duration="13605000" />
-      <workItem from="1692172035285" duration="40385000" />
+      <workItem from="1692172035285" duration="41071000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -447,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692323597805</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="8일차 TCP echo server finish">
+      <option name="closed" value="true" />
+      <created>1692330423447</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1692330423447</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +456,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="5일차 Date" />
     <MESSAGE value="5일차 Practice05" />
     <MESSAGE value="5일차 prob1" />
     <MESSAGE value="5일차 prob2" />
@@ -480,7 +480,8 @@
     <MESSAGE value="7일차 과제" />
     <MESSAGE value="8일차 TCP Programming I" />
     <MESSAGE value="8일차 TCP Server finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="8일차 TCP Server finish" />
+    <MESSAGE value="8일차 TCP echo server finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="8일차 TCP echo server finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
