@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="InetAddressExample">
-      <change afterPath="$PROJECT_DIR$/java_sdh_study/src/main/java/Inflearn_Chatbot_Java_Lecture/Chat_Take_Notes.java" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="자바 채팅 흐름">
+      <change afterPath="$PROJECT_DIR$/java_sdh_study/src/main/java/Inflearn_Chatbot_Java_Lecture/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_sdh_study/src/main/java/Inflearn_Chatbot_Java_Lecture/ChatServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +192,7 @@
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
       <workItem from="1692144049973" duration="13605000" />
-      <workItem from="1692172035285" duration="55311000" />
+      <workItem from="1692172035285" duration="56460000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -481,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692348127065</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="자바 채팅 흐름">
+      <option name="closed" value="true" />
+      <created>1692411110516</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1692411110516</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +498,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="5일차 prob4" />
     <MESSAGE value="개인학습 TEST" />
     <MESSAGE value="Prob 5 오류 해결" />
     <MESSAGE value="Prob 6 오류 해결" />
@@ -514,7 +522,8 @@
     <MESSAGE value="8일차 네트워크 통신" />
     <MESSAGE value="8일차 WebServer #1" />
     <MESSAGE value="InetAddressExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="InetAddressExample" />
+    <MESSAGE value="자바 채팅 흐름" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 채팅 흐름" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
