@@ -53,7 +53,8 @@ class ChatThread extends Thread {
             while ((line = in.readLine()) != null) {
                 for(int i = 0; i<outList.size(); i++){ //접속한 모든 클라이언트한테 메시지를 보냄
                     PrintWriter o = outList.get(i);
-                    o.println(line);
+                    o.println("한 User가 종료했습니다.");
+                    o.flush();
                 }
             }
         } catch (Exception e) {
@@ -63,6 +64,18 @@ class ChatThread extends Thread {
                 outList.remove(out);
 
             } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            for(int i = 0; i<outList.size(); i++){ //접속한 모든 클라이언트한테 메시지를 보냄
+                PrintWriter o = outList.get(i);
+                o.println("한 User가 종료했습니다.");
+                o.flush();
+            }
+
+            try {
+                socket.close();
+            } catch (IOException e){
                 e.printStackTrace();
             }
         }

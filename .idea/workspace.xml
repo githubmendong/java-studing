@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="자바 채팅 구현 - i">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_sdh_study/src/main/java/Inflearn_Chatbot_Java_Lecture/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_sdh_study/src/main/java/Inflearn_Chatbot_Java_Lecture/ChatClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java_sdh_study/src/main/java/Inflearn_Chatbot_Java_Lecture/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_sdh_study/src/main/java/Inflearn_Chatbot_Java_Lecture/ChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_sdh_study/src/main/java/Inflearn_Chatbot_Java_Lecture/Chat_Take_Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_sdh_study/src/main/java/Inflearn_Chatbot_Java_Lecture/Chat_Take_Notes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,7 @@
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\Practice05\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FileCopy">
     <configuration name="FileCopy" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.FileCopy" />
       <module name="chapter04" />
@@ -192,7 +192,7 @@
       <workItem from="1692003458881" duration="1639000" />
       <workItem from="1692015738189" duration="4857000" />
       <workItem from="1692144049973" duration="13605000" />
-      <workItem from="1692172035285" duration="60505000" />
+      <workItem from="1692172035285" duration="61452000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -498,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692412244986</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="자바 채팅 구현 - i">
+      <option name="closed" value="true" />
+      <created>1692502853810</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1692502853810</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
