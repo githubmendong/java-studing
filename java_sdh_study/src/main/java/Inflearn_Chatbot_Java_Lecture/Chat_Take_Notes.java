@@ -51,5 +51,13 @@ public class Chat_Take_Notes {
 
         //  네트워크 통신: 실제로 채팅 어플리케이션을 개발하려면 네트워크 프로그래밍을 이해해야 한다.
         //      Java에서는 Socket과 같은 클래스를 활용해 클라이언트와 서버 간의 통신을 구현할 수 있다.
+
+        // 클라에 따라 소켓에 종류가 달라짐
+        // Thread - > Socket - in /         | <->
+        //                         out      | List
+        // Thread - > Socket - in /         | <->
+
+        //각각 따로 작동하기 해서 THread가 필요.
+
     }
 }

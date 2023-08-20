@@ -15,6 +15,7 @@ public class ChatServer {
         while (true) {
 
             Socket socket = new Socket();
+            System.out.println("접속 : " + socket );
 
             ChatThread chatThread = new ChatThread(socket, outList); // Sharing 객체
             chatThread.start();
@@ -50,11 +51,14 @@ class ChatThread extends Thread {
 
         try {
             while ((line = in.readLine()) != null) {
-
+                for(int i = 0; i<outList.size(); i++){ //접속한 모든 클라이언트한테 메시지를 보냄
+                    PrintWriter o = outList.get(i);
+                    o.println(line);
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();
-        } finally {
+        } finally { //접속이 끊길떄
             try {
                 outList.remove(out);
 
