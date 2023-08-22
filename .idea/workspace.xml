@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="httpd #2">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatSeverThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/gui/ChatClientApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/gui/ChatWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="TCP 소켓 프로그래밍 IV&#10;Chatting(서버/클라이언트)">
+      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/httpd/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/httpd/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/httpd/RequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatSeverThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/test/TCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/test/TCPClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,34 +78,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "OverrideImplement.generate.javadoc": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "14",
-    "last_opened_file_path": "/Users/sindongheon/eclipse-workspace/java-studing",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/SDH/IdeaProjects/java-studing/network/httpd/src/main/java/com/poscodx/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;14&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sindongheon/eclipse-workspace/java-studing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SDH/IdeaProjects/java-studing/network/httpd/src/main/java/com/poscodx/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="chat" />
       <recent name="Network_Input_Output" />
       <recent name="prob5" />
       <recent name="prob4" />
@@ -219,7 +213,8 @@
       <workItem from="1692015738189" duration="4857000" />
       <workItem from="1692144049973" duration="13605000" />
       <workItem from="1692172035285" duration="62268000" />
-      <workItem from="1692576038520" duration="13356000" />
+      <workItem from="1692576038520" duration="17602000" />
+      <workItem from="1692662046986" duration="2323000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -549,7 +544,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692580449620</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="TCP 소켓 프로그래밍 IV&#10;Chatting(서버/클라이언트)">
+      <option name="closed" value="true" />
+      <created>1692595593916</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1692595593916</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +560,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Prob 6 오류 해결" />
     <MESSAGE value="6일차 캘린더" />
     <MESSAGE value="6일차 백터 링크리스트" />
     <MESSAGE value="6일차 배열리스트" />
@@ -582,7 +584,8 @@
     <MESSAGE value="자바 채팅 흐름" />
     <MESSAGE value="자바 채팅 구현 - i" />
     <MESSAGE value="httpd #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="httpd #2" />
+    <MESSAGE value="TCP 소켓 프로그래밍 IV&#10;Chatting(서버/클라이언트)" />
+    <option name="LAST_COMMIT_MESSAGE" value="TCP 소켓 프로그래밍 IV&#10;Chatting(서버/클라이언트)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

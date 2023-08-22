@@ -26,13 +26,13 @@ public class ChatClient {
 
             // 4. reader / writer 생성
             PrintWriter pw = new PrintWriter(new OutputStreamWriter(socket.getOutputStream(), "UTF-8"), true);
-            BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()"UTF-8"));
+            BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream(),"UTF-8"));
 
             System.out.println(" 본인의 닉네임을 입력해주세요  :");
             String nickname = scanner.nextLine();
             pw.println("JOIN:" + nickname);
             pw.println(nickname + "님이 채팅에 참여했씁니다.");
-            pw.flush();
+//            pw.flush();
 
             //스레드 시작
             new ChatClientThread(socket).start();
