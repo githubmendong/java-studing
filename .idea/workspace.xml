@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="Echo UDP Echo C/S">
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatClientApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="Chat GUI #1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +209,7 @@
       <workItem from="1692144049973" duration="13605000" />
       <workItem from="1692172035285" duration="62268000" />
       <workItem from="1692576038520" duration="17602000" />
-      <workItem from="1692662046986" duration="7942000" />
+      <workItem from="1692662046986" duration="10999000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -598,7 +595,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692671579785</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Chat GUI #1">
+      <option name="closed" value="true" />
+      <created>1692672614913</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1692672614913</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +611,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="6일차 io - 1" />
     <MESSAGE value="6일차 io - 2" />
     <MESSAGE value="6일차 finalTest" />
     <MESSAGE value="6일차 finalTest - Prob 01" />
@@ -631,7 +635,8 @@
     <MESSAGE value="tcp alogorithm &amp; socket options" />
     <MESSAGE value="Echo Server" />
     <MESSAGE value="Echo UDP Echo C/S" />
-    <option name="LAST_COMMIT_MESSAGE" value="Echo UDP Echo C/S" />
+    <MESSAGE value="Chat GUI #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chat GUI #1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
