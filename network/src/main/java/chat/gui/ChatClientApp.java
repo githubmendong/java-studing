@@ -1,3 +1,5 @@
+// ChatClientApp.java
+
 package chat.gui;
 import java.util.Scanner;
 

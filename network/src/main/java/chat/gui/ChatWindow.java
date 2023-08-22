@@ -1,20 +1,17 @@
+//ChatWindow.java
+
 package chat.gui;
-import java.awt.BorderLayout;
-import java.awt.Button;
-import java.awt.Color;
-import java.awt.Frame;
-import java.awt.Panel;
-import java.awt.TextArea;
-import java.awt.TextField;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.util.Scanner;
 
 public class ChatWindow {
-
+	private Socket socket;
+	private PrintWriter pw;
 	private Frame frame;
 	private Panel pannel;
 	private Button buttonSend;
@@ -27,6 +24,16 @@ public class ChatWindow {
 		buttonSend = new Button("Send");
 		textField = new TextField();
 		textArea = new TextArea(30, 80);
+
+		this.socket = socket;
+		try {
+			this.pw = new PrintWriter(socket.getOutputStream(), true);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		new ChatClientThread(socket).start();
+
 	}
 
 	public void show() {
@@ -77,7 +84,15 @@ public class ChatWindow {
 
 	private void finish() {
 		// quit 프로토콜 구현
+		pw.println("QUIT:");
 
+		try {
+			if (socket != null && !socket.isClosed()) {
+				socket.close();
+			}
+		} catch (IOException ex) {
+			ex.printStackTrace();
+		}
 
 		// exit java(JVM)
 		System.exit(0);
@@ -100,9 +115,21 @@ public class ChatWindow {
 	}
 
 	private class ChatClientThread extends Thread {
+		private Socket socket;
+		public ChatClientThread(Socket socket) {
+			this.socket = socket;
+		}
 		@Override
 		public void run() {
-			updateTextArea("마이콜: 안녕~");
+			try {
+				Scanner scanner = new Scanner(socket.getInputStream());
+				while (scanner.hasNextLine()) {
+					updateTextArea(scanner.nextLine());
+				}
+				scanner.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 }
