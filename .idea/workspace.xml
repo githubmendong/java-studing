@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="Echo Server">
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="Echo UDP Echo C/S">
+      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatClientApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/udp/UDPEchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/udp/UDPEchoClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/udp/UDPEchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/udp/UDPEchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,14 +110,14 @@
       <recent name="prob4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\network\src\main\java\chat\gui" />
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\network\src\main\java\chat" />
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\network\src\main\java" />
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\network" />
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\finaltest\src\main\java\com\poscodx" />
-      <recent name="C:\Users\SDH\IdeaProjects\java-studing\chapter04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.httpMain">
+  <component name="RunManager">
     <configuration name="FileCopy" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.FileCopy" />
       <module name="chapter04" />
@@ -210,7 +212,7 @@
       <workItem from="1692144049973" duration="13605000" />
       <workItem from="1692172035285" duration="62268000" />
       <workItem from="1692576038520" duration="17602000" />
-      <workItem from="1692662046986" duration="7033000" />
+      <workItem from="1692662046986" duration="7942000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -588,7 +590,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692670563063</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Echo UDP Echo C/S">
+      <option name="closed" value="true" />
+      <created>1692671579785</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1692671579785</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +606,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="6일차 QueueTest" />
     <MESSAGE value="6일차 io - 1" />
     <MESSAGE value="6일차 io - 2" />
     <MESSAGE value="6일차 finalTest" />
@@ -621,7 +630,8 @@
     <MESSAGE value="TCP Sever 소켓 포트 할당 추가 &#10;FIN-WAIT -&gt; TIME_WAIT 상태에서도 소켓 포트 할당이 가능하도록 하기 위해..." />
     <MESSAGE value="tcp alogorithm &amp; socket options" />
     <MESSAGE value="Echo Server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Echo Server" />
+    <MESSAGE value="Echo UDP Echo C/S" />
+    <option name="LAST_COMMIT_MESSAGE" value="Echo UDP Echo C/S" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
