@@ -30,8 +30,6 @@ public class TCPClient {
             sndBufferSize = socket.getSendBufferSize();
             System.out.println(rcvBufferSize + " : " + sndBufferSize);
 
-
-
             // 2. 서버 연결
             socket.connect(new InetSocketAddress(SERVER_IP, SERVER_PORT));
 
