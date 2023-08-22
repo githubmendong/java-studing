@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="tcp alogorithm &amp; socket options">
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/udp/UDPEchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/udp/UDPEchoServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/udp/UDPEchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/udp/UDPEchoServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +209,7 @@
       <workItem from="1692144049973" duration="13605000" />
       <workItem from="1692172035285" duration="62268000" />
       <workItem from="1692576038520" duration="17602000" />
-      <workItem from="1692662046986" duration="4699000" />
+      <workItem from="1692662046986" duration="6042000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -572,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692668197663</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="tcp alogorithm &amp; socket options">
+      <option name="closed" value="true" />
+      <created>1692669275347</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1692669275347</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
