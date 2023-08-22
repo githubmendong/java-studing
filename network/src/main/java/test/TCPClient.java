@@ -6,6 +6,7 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.SocketException;
+import java.net.SocketTimeoutException;
 
 public class TCPClient {
     private static final String SERVER_IP = "127.0.0.1"; // 서버 IP 주소
@@ -24,11 +25,18 @@ public class TCPClient {
             System.out.println(rcvBufferSize + " : " + sndBufferSize);
 
             // 1-2 소켓 버퍼 사이즈 변경
-            socket.setReceiveBufferSize(1024*10);
+            socket.setReceiveBufferSize(1024 * 10);
 
             rcvBufferSize = socket.getReceiveBufferSize();
             sndBufferSize = socket.getSendBufferSize();
             System.out.println(rcvBufferSize + " : " + sndBufferSize);
+
+            // 1-3. SO_NODELAY (Nagle Algorithm off)
+            socket.setTcpNoDelay(true);
+
+            //1-4. SO_TIMEOUT
+            socket.setSoTimeout(3000);
+
 
             // 2. 서버 연결
             socket.connect(new InetSocketAddress(SERVER_IP, SERVER_PORT));
@@ -58,6 +66,8 @@ public class TCPClient {
         } catch (SocketException e) {
             // 서버에서 갑작스럽게 연결이 끊어진 경우
             System.out.println("[client] suddenly closed by server");
+        } catch (SocketTimeoutException e) {
+            System.out.println("TIMEOUT");
         } catch (IOException e) {
             // IO 작업 중 예외 발생한 경우
             System.out.println("[client] error " + e);

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="버퍼 사이즈 변경">
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="TCP Sever 소켓 포트 할당 추가 &#10;FIN-WAIT -&gt; TIME_WAIT 상태에서도 소켓 포트 할당이 가능하도록 하기 위해...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/main/java/test/TCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/test/TCPClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/main/java/test/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/test/TCPServer.java" afterDir="false" />
@@ -210,7 +210,7 @@
       <workItem from="1692144049973" duration="13605000" />
       <workItem from="1692172035285" duration="62268000" />
       <workItem from="1692576038520" duration="17602000" />
-      <workItem from="1692662046986" duration="2951000" />
+      <workItem from="1692662046986" duration="3504000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -556,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692666839995</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="TCP Sever 소켓 포트 할당 추가 &#10;FIN-WAIT -&gt; TIME_WAIT 상태에서도 소켓 포트 할당이 가능하도록 하기 위해...">
+      <option name="closed" value="true" />
+      <created>1692667469309</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1692667469309</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +572,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="6일차 백터 링크리스트" />
     <MESSAGE value="6일차 배열리스트" />
     <MESSAGE value="6일차 collection framework - 2" />
     <MESSAGE value="6일차 QueueTest" />
@@ -589,7 +596,8 @@
     <MESSAGE value="httpd #2" />
     <MESSAGE value="TCP 소켓 프로그래밍 IV&#10;Chatting(서버/클라이언트)" />
     <MESSAGE value="버퍼 사이즈 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="버퍼 사이즈 변경" />
+    <MESSAGE value="TCP Sever 소켓 포트 할당 추가 &#10;FIN-WAIT -&gt; TIME_WAIT 상태에서도 소켓 포트 할당이 가능하도록 하기 위해..." />
+    <option name="LAST_COMMIT_MESSAGE" value="TCP Sever 소켓 포트 할당 추가 &#10;FIN-WAIT -&gt; TIME_WAIT 상태에서도 소켓 포트 할당이 가능하도록 하기 위해..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

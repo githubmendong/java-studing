@@ -70,6 +70,9 @@ public class TCPServer {
                     String data = new String(buffer, 0, readByteCount, "utf-8");
                     System.out.println("[server] received: " + data);
 
+
+                    // SO_TIMEOUT 옵션 테스트용
+                    Thread.sleep(3000);
                     // 6. 데이터 쓰기
                     os.write(data.getBytes("utf-8"));
                 }
@@ -81,6 +84,8 @@ public class TCPServer {
             }catch (IOException e)
             {
                 System.out.println("[server] error : "+ e);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             } finally {
                 try {
                     if (serverSocket != null && !serverSocket.isClosed()){
