@@ -8,39 +8,43 @@ import java.net.SocketException;
 public class UDPEchoServer {
     public static final int PORT = 8000;
     public static final int BUFFER_SIZE = 256;
-    DatagramSocket socket = null;
 
-    public static void main(String[] args) throws SocketException {
+    public static void main(String[] args) {
+        DatagramSocket socket = null;
+
         try {
             //1. 소켓 생성
-            DatagramSocket socket = new DatagramSocket(PORT);
+            socket = new DatagramSocket(PORT);
 
-            while (true) {
-                //2. Data 수신
+            while(true) {
+                //2. 데이터 수신
                 DatagramPacket rcvPacket = new DatagramPacket(new byte[BUFFER_SIZE], BUFFER_SIZE);
-                socket.receive(rcvPacket); //Blocking
+                socket.receive(rcvPacket); // Blocking
 
                 byte[] rcvData = rcvPacket.getData();
                 int offset = rcvPacket.getLength();
+                String message = new String(rcvData, 0, offset, "utf-8");
 
-                new String(rcvData, 0, offset, "utf-8");
+                System.out.println("[UDP Echo Server] received:" + message);
 
-                //3. 송신
+                //3.송신
                 byte[] sndData = message.getBytes("utf-8");
-                DatagramPacket sndPacket = new DatagramPacket(sndData,
-                        sndData.length, rcvPacket.getAddress(), rcvPacket.getPort());
+                DatagramPacket sndPacket = new DatagramPacket(
+                        sndData,
+                        sndData.length,
+                        rcvPacket.getAddress(),
+                        rcvPacket.getPort());
 
                 socket.send(sndPacket);
             }
-        } catch (SocketException ex) {
-            System.out.println("error " + ex);
-        } catch (IOException ex) {
-            System.out.println("error " + ex);
+        } catch (SocketException e) {
+            System.out.println("[UDP Echo Server] error:" + e);
+        } catch (IOException e) {
+            System.out.println("[UDP Echo Server] error:" + e);
         } finally {
-            if (socket != null && !socket.isClosed()) {
+            if(socket != null && !socket.isClosed()) {
                 socket.close();
             }
         }
     }
-
 }

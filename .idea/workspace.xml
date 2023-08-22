@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="tcp alogorithm &amp; socket options">
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="Echo Server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/udp/UDPEchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/udp/UDPEchoClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/main/java/udp/UDPEchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/udp/UDPEchoServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +210,7 @@
       <workItem from="1692144049973" duration="13605000" />
       <workItem from="1692172035285" duration="62268000" />
       <workItem from="1692576038520" duration="17602000" />
-      <workItem from="1692662046986" duration="6042000" />
+      <workItem from="1692662046986" duration="7033000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -579,7 +580,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692669275347</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Echo Server">
+      <option name="closed" value="true" />
+      <created>1692670563063</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1692670563063</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +596,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="6일차 collection framework - 2" />
     <MESSAGE value="6일차 QueueTest" />
     <MESSAGE value="6일차 io - 1" />
     <MESSAGE value="6일차 io - 2" />
@@ -612,7 +620,8 @@
     <MESSAGE value="버퍼 사이즈 변경" />
     <MESSAGE value="TCP Sever 소켓 포트 할당 추가 &#10;FIN-WAIT -&gt; TIME_WAIT 상태에서도 소켓 포트 할당이 가능하도록 하기 위해..." />
     <MESSAGE value="tcp alogorithm &amp; socket options" />
-    <option name="LAST_COMMIT_MESSAGE" value="tcp alogorithm &amp; socket options" />
+    <MESSAGE value="Echo Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Echo Server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
