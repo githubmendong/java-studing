@@ -24,5 +24,11 @@
   	<module>practice03</module>
   	<module>practice04</module>
   	<module>chapter04</module>
+      <module>Practice05</module>
+      <module>java_sdh_study</module>
+      <module>finaltest</module>
+      <module>tcpserver</module>
+      <module>network</module>
+      <module>network/httpd</module>
   </modules>
 </project>

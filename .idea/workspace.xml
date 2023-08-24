@@ -4,30 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="채팅 과제 끝">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/ObjectTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/src/main/java/chapter04/ObjectTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-studing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatClientApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "githubmendong"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;githubmendong&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -35,6 +46,12 @@
         <option name="url" value="https://github.com/githubmendong/java-studing.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-20.0.2/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -44,7 +61,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -57,26 +74,153 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "14",
-    "last_opened_file_path": "/Users/sindongheon/eclipse-workspace/java-studing",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;14&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sindongheon/eclipse-workspace/java-studing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SDH/IdeaProjects/java-studing/network/httpd/src/main/java/com/poscodx/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="chat" />
+      <recent name="Network_Input_Output" />
+      <recent name="prob5" />
+      <recent name="prob4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\network\src\main\java\chat\gui" />
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\network\src\main\java\chat" />
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\network\src\main\java" />
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\network" />
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\finaltest\src\main\java\com\poscodx" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.ChatClient" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.gui.ChatClientApp" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileCopy" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.FileCopy" />
+      <module name="chapter04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prob5.MainApp" />
+      <module name="Practice05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prob5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter04.ObjectTest03" />
+      <module name="chapter04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prob1.Sort" />
+      <module name="Practice05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prob1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="httpMain" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="MAIN_CLASS_NAME" value="httpd.SimpleHttpServer" />
+      <module name="network" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FileCopy" />
+      <item itemvalue="Application.httpMain" />
+      <item itemvalue="Application.ChatClient" />
+      <item itemvalue="Application.ChatClientApp" />
+      <item itemvalue="Application.MainApp" />
+      <item itemvalue="Application.ObjectTest03" />
+      <item itemvalue="Application.Sort" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChatClientApp" />
+        <item itemvalue="Application.ChatClient" />
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.ObjectTest03" />
+        <item itemvalue="Application.MainApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,8 +231,408 @@
       <updated>1691570999542</updated>
       <workItem from="1691571000612" duration="6241000" />
       <workItem from="1691712200456" duration="1746000" />
-      <workItem from="1691714033889" duration="1255000" />
+      <workItem from="1691714033889" duration="25772000" />
+      <workItem from="1691753163594" duration="4482000" />
+      <workItem from="1692003458881" duration="1639000" />
+      <workItem from="1692015738189" duration="4857000" />
+      <workItem from="1692144049973" duration="13605000" />
+      <workItem from="1692172035285" duration="62268000" />
+      <workItem from="1692576038520" duration="17602000" />
+      <workItem from="1692662046986" duration="16664000" />
     </task>
+    <task id="LOCAL-00003" summary="5일차 Object II">
+      <option name="closed" value="true" />
+      <created>1691722335667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691722335667</updated>
+    </task>
+    <task id="LOCAL-00004" summary="5일차 Date">
+      <option name="closed" value="true" />
+      <created>1691737528057</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691737528057</updated>
+    </task>
+    <task id="LOCAL-00005" summary="5일차 Practice05">
+      <option name="closed" value="true" />
+      <created>1691739438343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691739438343</updated>
+    </task>
+    <task id="LOCAL-00006" summary="5일차 prob1">
+      <option name="closed" value="true" />
+      <created>1691741246452</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691741246452</updated>
+    </task>
+    <task id="LOCAL-00007" summary="5일차 prob2">
+      <option name="closed" value="true" />
+      <created>1691742255922</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691742255922</updated>
+    </task>
+    <task id="LOCAL-00008" summary="5일차 prob3">
+      <option name="closed" value="true" />
+      <created>1691742836651</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691742836651</updated>
+    </task>
+    <task id="LOCAL-00009" summary="5일차 prob4">
+      <option name="closed" value="true" />
+      <created>1691750668317</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691750668317</updated>
+    </task>
+    <task id="LOCAL-00010" summary="개인학습 TEST">
+      <option name="closed" value="true" />
+      <created>1691916052214</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691916052214</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Prob 5 오류 해결">
+      <option name="closed" value="true" />
+      <created>1692017068577</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692017068577</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Prob 6 오류 해결">
+      <option name="closed" value="true" />
+      <created>1692021478093</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692021478093</updated>
+    </task>
+    <task id="LOCAL-00013" summary="6일차 캘린더">
+      <option name="closed" value="true" />
+      <created>1692145425580</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692145425580</updated>
+    </task>
+    <task id="LOCAL-00014" summary="6일차 캘린더">
+      <option name="closed" value="true" />
+      <created>1692145465766</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692145465766</updated>
+    </task>
+    <task id="LOCAL-00015" summary="6일차 백터 링크리스트">
+      <option name="closed" value="true" />
+      <created>1692153092412</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692153092412</updated>
+    </task>
+    <task id="LOCAL-00016" summary="6일차 배열리스트">
+      <option name="closed" value="true" />
+      <created>1692153258047</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692153258047</updated>
+    </task>
+    <task id="LOCAL-00017" summary="6일차 collection framework - 2">
+      <option name="closed" value="true" />
+      <created>1692154822156</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692154822156</updated>
+    </task>
+    <task id="LOCAL-00018" summary="6일차 QueueTest">
+      <option name="closed" value="true" />
+      <created>1692157640609</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1692157640609</updated>
+    </task>
+    <task id="LOCAL-00019" summary="6일차 io - 1">
+      <option name="closed" value="true" />
+      <created>1692165773355</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692165773355</updated>
+    </task>
+    <task id="LOCAL-00020" summary="6일차 io - 1">
+      <option name="closed" value="true" />
+      <created>1692166399270</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1692166399270</updated>
+    </task>
+    <task id="LOCAL-00021" summary="6일차 io - 2">
+      <option name="closed" value="true" />
+      <created>1692169554557</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1692169554557</updated>
+    </task>
+    <task id="LOCAL-00022" summary="6일차 finalTest">
+      <option name="closed" value="true" />
+      <created>1692170010943</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692170010943</updated>
+    </task>
+    <task id="LOCAL-00023" summary="6일차 finalTest - Prob 01">
+      <option name="closed" value="true" />
+      <created>1692173010639</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1692173010639</updated>
+    </task>
+    <task id="LOCAL-00024" summary="6일차 finalTest - Prob 01">
+      <option name="closed" value="true" />
+      <created>1692174088503</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1692174088503</updated>
+    </task>
+    <task id="LOCAL-00025" summary="7일차 Generic Class &amp; Method">
+      <option name="closed" value="true" />
+      <created>1692232971888</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1692232971888</updated>
+    </task>
+    <task id="LOCAL-00026" summary="7일차 io-3">
+      <option name="closed" value="true" />
+      <created>1692236950997</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1692236950997</updated>
+    </task>
+    <task id="LOCAL-00027" summary="7일차 io - fin">
+      <option name="closed" value="true" />
+      <created>1692238042143</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1692238042143</updated>
+    </task>
+    <task id="LOCAL-00028" summary="7일차 InetAddress finish">
+      <option name="closed" value="true" />
+      <created>1692255032639</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1692255032639</updated>
+    </task>
+    <task id="LOCAL-00029" summary="7일차 과제">
+      <option name="closed" value="true" />
+      <created>1692257515933</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1692257515933</updated>
+    </task>
+    <task id="LOCAL-00030" summary="8일차 TCP Programming I">
+      <option name="closed" value="true" />
+      <created>1692320117001</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1692320117001</updated>
+    </task>
+    <task id="LOCAL-00031" summary="8일차 TCP Server finish">
+      <option name="closed" value="true" />
+      <created>1692323597805</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1692323597805</updated>
+    </task>
+    <task id="LOCAL-00032" summary="8일차 TCP echo server finish">
+      <option name="closed" value="true" />
+      <created>1692330423447</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1692330423447</updated>
+    </task>
+    <task id="LOCAL-00033" summary="8일차 Thread, DigitalThread">
+      <option name="closed" value="true" />
+      <created>1692333394344</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1692333394344</updated>
+    </task>
+    <task id="LOCAL-00034" summary="8일차 네트워크 통신">
+      <option name="closed" value="true" />
+      <created>1692340575197</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1692340575197</updated>
+    </task>
+    <task id="LOCAL-00035" summary="8일차 WebServer #1">
+      <option name="closed" value="true" />
+      <created>1692344766808</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1692344766808</updated>
+    </task>
+    <task id="LOCAL-00036" summary="InetAddressExample">
+      <option name="closed" value="true" />
+      <created>1692348127065</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1692348127065</updated>
+    </task>
+    <task id="LOCAL-00037" summary="자바 채팅 흐름">
+      <option name="closed" value="true" />
+      <created>1692411110516</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1692411110516</updated>
+    </task>
+    <task id="LOCAL-00038" summary="자바 채팅 구현 - i">
+      <option name="closed" value="true" />
+      <created>1692412244986</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1692412244986</updated>
+    </task>
+    <task id="LOCAL-00039" summary="자바 채팅 구현 - i">
+      <option name="closed" value="true" />
+      <created>1692502853810</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1692502853810</updated>
+    </task>
+    <task id="LOCAL-00040" summary="자바 채팅 구현 - i">
+      <option name="closed" value="true" />
+      <created>1692503886828</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1692503886828</updated>
+    </task>
+    <task id="LOCAL-00041" summary="httpd #2">
+      <option name="closed" value="true" />
+      <created>1692580449620</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1692580449620</updated>
+    </task>
+    <task id="LOCAL-00042" summary="TCP 소켓 프로그래밍 IV&#10;Chatting(서버/클라이언트)">
+      <option name="closed" value="true" />
+      <created>1692595593916</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1692595593916</updated>
+    </task>
+    <task id="LOCAL-00043" summary="버퍼 사이즈 변경">
+      <option name="closed" value="true" />
+      <created>1692666839995</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1692666839995</updated>
+    </task>
+    <task id="LOCAL-00044" summary="TCP Sever 소켓 포트 할당 추가 &#10;FIN-WAIT -&gt; TIME_WAIT 상태에서도 소켓 포트 할당이 가능하도록 하기 위해...">
+      <option name="closed" value="true" />
+      <created>1692667469309</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1692667469309</updated>
+    </task>
+    <task id="LOCAL-00045" summary="tcp alogorithm &amp; socket options">
+      <option name="closed" value="true" />
+      <created>1692668197663</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1692668197663</updated>
+    </task>
+    <task id="LOCAL-00046" summary="tcp alogorithm &amp; socket options">
+      <option name="closed" value="true" />
+      <created>1692669275347</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1692669275347</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Echo Server">
+      <option name="closed" value="true" />
+      <created>1692670563063</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1692670563063</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Echo UDP Echo C/S">
+      <option name="closed" value="true" />
+      <created>1692671579785</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1692671579785</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Chat GUI #1">
+      <option name="closed" value="true" />
+      <created>1692672614913</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1692672614913</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Chat Client GUI #2">
+      <option name="closed" value="true" />
+      <created>1692679293066</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1692679293067</updated>
+    </task>
+    <task id="LOCAL-00051" summary="채팅 과제 끝">
+      <option name="closed" value="true" />
+      <created>1692691319796</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1692691319796</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +640,56 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="6일차 finalTest - Prob 01" />
+    <MESSAGE value="7일차 Generic Class &amp; Method" />
+    <MESSAGE value="7일차 io-3" />
+    <MESSAGE value="7일차 io - fin" />
+    <MESSAGE value="7일차 InetAddress finish" />
+    <MESSAGE value="7일차 과제" />
+    <MESSAGE value="8일차 TCP Programming I" />
+    <MESSAGE value="8일차 TCP Server finish" />
+    <MESSAGE value="8일차 TCP echo server finish" />
+    <MESSAGE value="8일차 Thread, DigitalThread" />
+    <MESSAGE value="8일차 네트워크 통신" />
+    <MESSAGE value="8일차 WebServer #1" />
+    <MESSAGE value="InetAddressExample" />
+    <MESSAGE value="자바 채팅 흐름" />
+    <MESSAGE value="자바 채팅 구현 - i" />
+    <MESSAGE value="httpd #2" />
+    <MESSAGE value="TCP 소켓 프로그래밍 IV&#10;Chatting(서버/클라이언트)" />
+    <MESSAGE value="버퍼 사이즈 변경" />
+    <MESSAGE value="TCP Sever 소켓 포트 할당 추가 &#10;FIN-WAIT -&gt; TIME_WAIT 상태에서도 소켓 포트 할당이 가능하도록 하기 위해..." />
+    <MESSAGE value="tcp alogorithm &amp; socket options" />
+    <MESSAGE value="Echo Server" />
+    <MESSAGE value="Echo UDP Echo C/S" />
+    <MESSAGE value="Chat GUI #1" />
+    <MESSAGE value="Chat Client GUI #2" />
+    <MESSAGE value="채팅 과제 끝" />
+    <option name="LAST_COMMIT_MESSAGE" value="채팅 과제 끝" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Practice05/src/main/java/com/poscodx/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java_sdh_study/src/main/java/com/poscodx/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/finaltest/src/main/java/com/poscodx/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

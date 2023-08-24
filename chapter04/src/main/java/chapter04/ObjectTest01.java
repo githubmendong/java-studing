@@ -9,6 +9,7 @@ import java.net.Socket;
 public class ObjectTest01 {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
         ServerSocket serverSocket = null;
 
         try {
@@ -52,6 +53,18 @@ public class ObjectTest01 {
             }
         }
 
+=======
+		Point point = new Point();
+
+//		Class klass = point.getClass();
+		System.out.println(point.getClass());
+		System.out.println(point.hashCode()); 	//address X
+												// reference x
+												// address 기반의 해싱값 o
+
+		System.out.println(point.toString()); 	//getClass() + "@" + hashCode()
+		System.out.println(point);
+>>>>>>> branch 'master' of https://github.com/githubmendong/java-studing.git
 	}
 
 }
