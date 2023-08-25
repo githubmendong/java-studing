@@ -14,8 +14,6 @@
 
 package prob02;
 
-import prob06.Add;
-
 import java.util.Scanner;
 
 public class CalcApp {
@@ -44,11 +42,11 @@ public class CalcApp {
 			prob02.Arithmetic arithmetic = null;
 
 			/* 코드 작성 */
-            switch (tokens[2]){
-                case "+" :
-                    arithmetic = new Add();
-                    break;
-            }
+//            switch (tokens[2]){
+//                case "+" :
+//                    arithmetic = new Add();
+//                    break;
+//            }
 
 
 

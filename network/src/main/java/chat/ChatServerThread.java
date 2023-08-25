@@ -36,7 +36,11 @@ public class ChatServerThread extends Thread {
                 try {
                     line = br.readLine();
                 } catch (IOException e) {
-                    throw new RuntimeException(e);
+
+                    ChatServer.log("Error while reading from client: " + e);
+                    chatQuit(pw);
+                    return;
+
                 }
                 if (line == null) {
                     chatQuit(pw);
@@ -55,11 +59,17 @@ public class ChatServerThread extends Thread {
                 }
             }
         } catch (SocketException ex) {
+
             chatQuit(pw);
-            ChatServer.log("Error " + ex);
+            ChatServer.log("Client unexpectedly disconnected: " + ex);
+            return;
+
         } catch (IOException ex) {
+
             chatQuit(pw);
-            ChatServer.log("Error " + ex);
+            ChatServer.log("Client unexpectedly disconnected: " + ex);
+            return;
+
         } finally {
             try {
                 if (socket != null &&

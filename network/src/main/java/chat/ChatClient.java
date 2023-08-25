@@ -20,8 +20,8 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class ChatClient {
-    private static final String SERVER_IP = "127.0.0.1";
-    private static final int SERVER_PORT = 9999;
+    protected static final String SERVER_IP = "127.0.0.1";
+    protected static final int SERVER_PORT = 9000;
 
     public static void main(String[] args) {
         Socket socket = null;

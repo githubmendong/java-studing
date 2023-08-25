@@ -7,6 +7,8 @@ import java.net.Socket;
 import java.net.SocketException;
 
 public class ChatClientThread extends Thread {
+
+
     private Socket socket;
 
     public ChatClientThread(Socket socket) {
