@@ -24,6 +24,7 @@ public class ChatServerThread extends Thread {
     public void run() {
         BufferedReader br = null;
         PrintWriter pw = null;
+
         try {
             InetSocketAddress remoteSocketAddress = (InetSocketAddress) socket.getRemoteSocketAddress();
             ChatServer.log("connected by client[" + remoteSocketAddress.getAddress().getHostAddress() + ":" + remoteSocketAddress.getPort() + "]");
@@ -34,6 +35,7 @@ public class ChatServerThread extends Thread {
             while (true) {
                 String line = null;
                 try {
+
                     line = br.readLine();
                 } catch (IOException e) {
 
@@ -87,6 +89,12 @@ public class ChatServerThread extends Thread {
         listPrintWriter.add(pw);
         ChatServer.log(name + " 참여했습니다!");
         broadcast("Server: " + name + " 님이 채팅에 참여했습니다.");
+        ChatServer.connectedClients++;
+
+
+        // 참여 수를 모든 클라이언트에게 알림
+        broadcast("CONNECTED_CLIENTS:" + ChatServer.connectedClients);
+
     }
 
     private synchronized void chatMessage(String message) {
@@ -94,7 +102,6 @@ public class ChatServerThread extends Thread {
         String formattedMessage = currentTime + " " + name + ": " + message;
         ChatServer.log(formattedMessage);
         broadcast(formattedMessage);
-
     }
 
     private synchronized void chatQuit(PrintWriter pw) {
@@ -107,6 +114,12 @@ public class ChatServerThread extends Thread {
             pw.close();
         }
         broadcast("QUIT:" + name);
+
+
+        ChatServer.connectedClients--;
+
+        // 참여 수를 모든 클라이언트에게 알림
+        broadcast("CONNECTED_CLIENTS:" + ChatServer.connectedClients);
     }
 
 

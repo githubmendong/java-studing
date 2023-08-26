@@ -18,6 +18,7 @@ public class ChatWindow {
 	private Socket socket;
 	private BufferedReader br;
 	private PrintWriter pw;
+	private Label connectedClientsLabel;
 
 	// Constructor: 창 생성 및 네트워킹 컴포넌트 초기화
 	public ChatWindow(String name, Socket socket) {
@@ -27,6 +28,9 @@ public class ChatWindow {
 		textField = new TextField();
 		textArea = new TextArea(30, 80);
 		this.socket = socket;
+
+		connectedClientsLabel = new Label();
+		frame.add(BorderLayout.NORTH, connectedClientsLabel);
 
 		// 네트워크 스트림 초기화
 		try {
@@ -121,11 +125,19 @@ public class ChatWindow {
 					if (line == null) {
 						break;
 					}
+					// 인원 카운트
+					if (line.startsWith("CONNECTED_CLIENTS:")) {
+						String count = line.split(":")[1];
+						connectedClientsLabel.setText("참여 수 : " + count);  // 수정된 부분
+						continue;  // 이 메시지는 textArea에 표시하지 않습니다.
+					}
+					//
 
 					if (!"Enter: ".equals(line)) {
 						textArea.append(line);
 						textArea.append("\n");
 					}
+
 				}
 			} catch (SocketException e) {
 				System.out.println("You have left the chat room!");

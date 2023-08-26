@@ -21,6 +21,7 @@ import java.util.List;
 
 public class ChatServer {
     private static final int PORT = 9000;
+    public static volatile int connectedClients = 0;
 
     public static void main(String[] args) {
         List<PrintWriter> listPrintWriter = new ArrayList<PrintWriter>();
