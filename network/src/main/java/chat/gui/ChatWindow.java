@@ -22,6 +22,10 @@ public class ChatWindow {
 	private BufferedReader br;
 	private PrintWriter pw;
 
+	// 참여자 수 표시 레이블
+	private int participantCount = 0;
+	private Label participantLabel;
+
 	// Constructor: 창 생성 및 네트워킹 컴포넌트 초기화
 	public ChatWindow(String name, Socket socket) {
 		frame = new Frame(name);
@@ -38,6 +42,21 @@ public class ChatWindow {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+
+		// 참여자 레이블 초기화
+		participantLabel = new Label("참여수: " + participantCount + " quit 를 입력하면 종료됩니다.");
+		frame.add(participantLabel, BorderLayout.NORTH);
+	}
+
+	// 참여자 수 증가 메서드
+	public void increaseParticipantCount() {
+		participantCount++;
+		participantLabel.setText("참여수: " + participantCount);
+	}
+
+	public void decreaseParticipantCount() {
+		participantCount--;
+		participantLabel.setText("참여수: " + participantCount);
 	}
 
 	// GUI 생성 및 표시

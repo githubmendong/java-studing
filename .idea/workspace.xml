@@ -9,8 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="Chat GUI 수정">
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="Chat GUI Timeline add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatClientApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" afterDir="false" />
     </list>
@@ -225,8 +227,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.ChatClientApp" />
-        <item itemvalue="애플리케이션.ChatServer" />
         <item itemvalue="애플리케이션.ChatClient" />
+        <item itemvalue="애플리케이션.ChatServer" />
       </list>
     </recent_temporary>
   </component>
@@ -251,15 +253,7 @@
       <workItem from="1692845146872" duration="25000" />
       <workItem from="1692858606986" duration="2863000" />
       <workItem from="1692863010327" duration="13730000" />
-      <workItem from="1693012622159" duration="7403000" />
-    </task>
-    <task id="LOCAL-00008" summary="5일차 prob3">
-      <option name="closed" value="true" />
-      <created>1691742836651</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1691742836651</updated>
+      <workItem from="1693012622159" duration="8550000" />
     </task>
     <task id="LOCAL-00009" summary="5일차 prob4">
       <option name="closed" value="true" />
@@ -645,7 +639,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693020306511</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Chat GUI Timeline add">
+      <option name="closed" value="true" />
+      <created>1693020782058</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1693020782058</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +655,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="7일차 과제" />
     <MESSAGE value="8일차 TCP Programming I" />
     <MESSAGE value="8일차 TCP Server finish" />
     <MESSAGE value="8일차 TCP echo server finish" />
@@ -678,7 +679,8 @@
     <MESSAGE value="파이널 테스트 수정 및 완료" />
     <MESSAGE value="챕터 4 오류 수정" />
     <MESSAGE value="Chat GUI 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chat GUI 수정" />
+    <MESSAGE value="Chat GUI Timeline add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chat GUI Timeline add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

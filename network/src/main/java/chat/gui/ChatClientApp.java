@@ -34,11 +34,19 @@ public class ChatClientApp {
 
             socket = new Socket();
             socket.connect(new InetSocketAddress(SERVER_IP, SERVER_PORT));
+            ChatWindow chatWindow = new ChatWindow(name, socket);
             PrintWriter pw = new PrintWriter(new OutputStreamWriter(socket.getOutputStream(), "UTF-8"), true);
             BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream(), "UTF-8"));
 
             new ChatWindow(name, socket).show();
+            chatWindow.increaseParticipantCount();  // 참여자 수 증가
             pw.println("JOIN:" + name);
+
+//            chatWindow.show();
+            // memo, 여기 부분에 참여자 수 증가를 해야함
+            // 입장 시 -> 값 증가를 해주면 될듯...
+
+
 
         } catch (ConnectException ce) {
             System.out.println("Connection Error : " + ce);

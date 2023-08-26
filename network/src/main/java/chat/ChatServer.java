@@ -21,6 +21,7 @@ import java.util.List;
 
 public class ChatServer {
     private static final int PORT = 9000;
+    private static int participantCount = 0;  // 참여자 수
 
     public static void main(String[] args) {
         List<PrintWriter> listPrintWriter = new ArrayList<PrintWriter>();
@@ -59,10 +60,22 @@ public class ChatServer {
         }
 
 
+
+
     }
 
     public static void log(String log) {
         System.out.println("챗 서버 : " + log);
     }
+    // 참여자 수 증가 메서드
+    public synchronized static void increaseParticipantCount() {
+        participantCount++;
+        log("참여수: " + participantCount);
+    }
 
+    // 참여자 수 감소 메서드
+    public synchronized static void decreaseParticipantCount() {
+        participantCount--;
+        log("참여수: " + participantCount);
+    }
 }
