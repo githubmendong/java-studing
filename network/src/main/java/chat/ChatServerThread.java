@@ -95,6 +95,10 @@ public class ChatServerThread extends Thread {
         // 참여 수를 모든 클라이언트에게 알림
         broadcast("CONNECTED_CLIENTS:" + ChatServer.connectedClients);
 
+        // 참여 이름 출력 릿스트
+        ChatServer.clientNames.add(name);
+        broadcast("[참여자 명단 ]:" + String.join(",", ChatServer.clientNames));
+
     }
 
     private synchronized void chatMessage(String message) {
@@ -120,6 +124,10 @@ public class ChatServerThread extends Thread {
 
         // 참여 수를 모든 클라이언트에게 알림
         broadcast("CONNECTED_CLIENTS:" + ChatServer.connectedClients);
+
+        // 참여 명단 리스트
+        ChatServer.clientNames.remove(name);
+        broadcast("[참여자 명단 ]:" + String.join(",", ChatServer.clientNames));
     }
 
 

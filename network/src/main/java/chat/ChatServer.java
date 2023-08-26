@@ -17,11 +17,14 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.*;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ChatServer {
     private static final int PORT = 9000;
     public static volatile int connectedClients = 0;
+    public static List<String> clientNames = Collections.synchronizedList(new ArrayList<>());
+
 
     public static void main(String[] args) {
         List<PrintWriter> listPrintWriter = new ArrayList<PrintWriter>();
