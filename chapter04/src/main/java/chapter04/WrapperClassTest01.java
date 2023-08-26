@@ -1,6 +1,7 @@
 package chapter04;
 
 public class WrapperClassTest01 {
+
     public static void main(String[] args) {
         // 직접 생성하게 되면 JVM의 힙상에 객체가 존재하게 된다.
         // 리터럴을 사용하면 되면 JVM 안의 Constant Poll이 관리한다.
@@ -18,6 +19,5 @@ public class WrapperClassTest01 {
         // Auto Unboxing
         // int m = j1.intValue() + 10;
         int m = j1 + 10;
-
     }
 }
