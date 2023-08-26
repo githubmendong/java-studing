@@ -9,25 +9,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="채팅 GUI 적용중">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/target_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatClientApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="target">
+      <change afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob02/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob02/Div.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob02/Mul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob02/Sub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finaltest/src/main/java/prob02/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob02/Arithmetic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finaltest/src/main/java/prob02/CalcApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob02/CalcApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatClientThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatClientApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/echo/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/echo/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finaltest/src/main/java/prob03/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob03/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finaltest/src/main/java/prob03/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob03/MoneyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finaltest/src/main/java/prob04/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob04/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finaltest/src/main/java/prob04/Prob04.java" beforeDir="false" afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob04/Prob04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finaltest/src/main/java/prob05/LoginMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob05/LoginMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finaltest/src/main/java/prob05/PasswordDismatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob05/PasswordDismatchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finaltest/src/main/java/prob05/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob05/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finaltest/src/main/java/prob05/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/finaltest/src/main/java/prob05/UserNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice03/src/main/java/prob05/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice03/src/main/java/prob05/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practices02/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/practice02/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practices02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practices02/src/main/java/prob01/Prob01.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice02/src/main/java/prob01/Prob01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practices02/src/main/java/prob02/Prob02.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice02/src/main/java/prob02/Prob02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practices02/src/main/java/prob03/Prob03.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice02/src/main/java/prob03/Prob03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practices02/src/main/java/prob04/Prob04.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice02/src/main/java/prob04/Prob04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practices02/src/main/java/prob05/Prob05.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice02/src/main/java/prob05/Prob05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +113,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "14",
-    "last_opened_file_path": "C:/Users/SDH/IdeaProjects/java-studing",
+    "last_opened_file_path": "C:/Users/SDH/IdeaProjects/java-studing/finaltest/src/main/java/prob05",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,7 +123,7 @@
     "project.structure.last.edited": "아티팩트",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "project.propDebugger",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -126,6 +133,12 @@
       <recent name="Network_Input_Output" />
       <recent name="prob5" />
       <recent name="prob4" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\finaltest\src\main\java\prob05" />
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\finaltest\src\main\java\prob04" />
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\finaltest\src\main\java\prob03" />
+      <recent name="C:\Users\SDH\IdeaProjects\java-studing\finaltest\src\main\java\prob02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\SDH\IdeaProjects\java-studing\network\src\main\java\chat\gui" />
@@ -259,15 +272,8 @@
       <workItem from="1692662046986" duration="18855000" />
       <workItem from="1692845146872" duration="25000" />
       <workItem from="1692858606986" duration="2863000" />
-      <workItem from="1692863010327" duration="10944000" />
-    </task>
-    <task id="LOCAL-00004" summary="5일차 Date">
-      <option name="closed" value="true" />
-      <created>1691737528057</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1691737528057</updated>
+      <workItem from="1692863010327" duration="13730000" />
+      <workItem from="1693012622159" duration="753000" />
     </task>
     <task id="LOCAL-00005" summary="5일차 Practice05">
       <option name="closed" value="true" />
@@ -653,7 +659,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692692164080</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="target">
+      <option name="closed" value="true" />
+      <created>1692941375756</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1692941375756</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,7 +675,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="7일차 Generic Class &amp; Method" />
     <MESSAGE value="7일차 io-3" />
     <MESSAGE value="7일차 io - fin" />
     <MESSAGE value="7일차 InetAddress finish" />
@@ -686,7 +699,8 @@
     <MESSAGE value="Chat Client GUI #2" />
     <MESSAGE value="채팅 과제 끝" />
     <MESSAGE value="채팅 GUI 적용중" />
-    <option name="LAST_COMMIT_MESSAGE" value="채팅 GUI 적용중" />
+    <MESSAGE value="target" />
+    <option name="LAST_COMMIT_MESSAGE" value="target" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
