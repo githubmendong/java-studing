@@ -10,9 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="챕터 4 오류 수정">
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatClientApp2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatClientApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

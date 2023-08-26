@@ -3,10 +3,7 @@ package chat.gui;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
-import java.net.Socket;
-import java.net.SocketException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.net.*;
 
 public class ChatWindow {
 
@@ -21,10 +18,6 @@ public class ChatWindow {
 	private Socket socket;
 	private BufferedReader br;
 	private PrintWriter pw;
-
-	// 참여자 수 표시 레이블
-	private int participantCount = 0;
-	private Label participantLabel;
 
 	// Constructor: 창 생성 및 네트워킹 컴포넌트 초기화
 	public ChatWindow(String name, Socket socket) {
@@ -42,21 +35,6 @@ public class ChatWindow {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
-		// 참여자 레이블 초기화
-		participantLabel = new Label("참여수: " + participantCount + " quit 를 입력하면 종료됩니다.");
-		frame.add(participantLabel, BorderLayout.NORTH);
-	}
-
-	// 참여자 수 증가 메서드
-	public void increaseParticipantCount() {
-		participantCount++;
-		participantLabel.setText("참여수: " + participantCount);
-	}
-
-	public void decreaseParticipantCount() {
-		participantCount--;
-		participantLabel.setText("참여수: " + participantCount);
 	}
 
 	// GUI 생성 및 표시
@@ -106,9 +84,6 @@ public class ChatWindow {
 		new ChatClientThread().start();
 	}
 
-
-
-
 	// 채팅 종료 메서드
 	private void finish() {
 		pw.println("quit");
@@ -132,15 +107,8 @@ public class ChatWindow {
 
 	// 텍스트 영역 업데이트 메서드
 	private void updateTextArea(String message) {
-		String formattedTime = getCurrentFormattedTime();
-		textArea.append(formattedTime + " " + message);
+		textArea.append(message);
 		textArea.append("\n");
-	}
-
-	// 현재 시간을 "HH:mm:ss" 형식으로 반환하는 메서드
-	private String getCurrentFormattedTime() {
-		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
-		return sdf.format(new Date());
 	}
 
 	// 클라이언트 채팅 스레드: 서버로부터 메시지를 수신받아 텍스트 영역에 표시

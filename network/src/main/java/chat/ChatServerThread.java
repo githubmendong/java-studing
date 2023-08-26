@@ -87,9 +87,7 @@ public class ChatServerThread extends Thread {
         listPrintWriter.add(pw);
         ChatServer.log(name + " 참여했습니다!");
         broadcast("Server: " + name + " 님이 채팅에 참여했습니다.");
-        ChatServer.increaseParticipantCount();  // 참여자 수 증가
     }
-
 
     private synchronized void chatMessage(String message) {
         String currentTime = java.time.LocalTime.now().format(java.time.format.DateTimeFormatter.ofPattern("HH:mm:ss"));
@@ -104,7 +102,6 @@ public class ChatServerThread extends Thread {
             ChatServer.log(name + " 채팅을 떠났습니다.");
             listPrintWriter.remove(pw);
             broadcast("Server: " + name + " 님이 채팅을 떠났습니다..");
-            ChatServer.decreaseParticipantCount();  // 참여자 수 감소
         }
         if (pw != null) {
             pw.close();
