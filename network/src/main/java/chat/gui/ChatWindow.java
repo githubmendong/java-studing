@@ -3,7 +3,10 @@ package chat.gui;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
-import java.net.*;
+import java.net.Socket;
+import java.net.SocketException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class ChatWindow {
 
@@ -84,6 +87,9 @@ public class ChatWindow {
 		new ChatClientThread().start();
 	}
 
+
+
+
 	// 채팅 종료 메서드
 	private void finish() {
 		pw.println("quit");
@@ -106,8 +112,15 @@ public class ChatWindow {
 
 	// 텍스트 영역 업데이트 메서드
 	private void updateTextArea(String message) {
-		textArea.append(message);
+		String formattedTime = getCurrentFormattedTime();
+		textArea.append(formattedTime + " " + message);
 		textArea.append("\n");
+	}
+
+	// 현재 시간을 "HH:mm:ss" 형식으로 반환하는 메서드
+	private String getCurrentFormattedTime() {
+		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+		return sdf.format(new Date());
 	}
 
 	// 클라이언트 채팅 스레드: 서버로부터 메시지를 수신받아 텍스트 영역에 표시

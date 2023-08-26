@@ -1,5 +1,5 @@
 // ChatClientApp.java
-
+// 시간추가
 package chat.gui;
 
 import java.io.*;
