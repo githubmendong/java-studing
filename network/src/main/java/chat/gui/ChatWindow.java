@@ -125,8 +125,9 @@ public class ChatWindow {
 			finish();
 		}
 
-		pw.println("chat:" + message);
-		updateTextArea("Me >> " + message);
+		String currentTime = java.time.LocalTime.now().format(java.time.format.DateTimeFormatter.ofPattern("HH:mm:ss"));
+		pw.println("MESSAGE:" + message);
+//		updateTextArea(currentTime + " Me >> " + message);
 	}
 
 	// 텍스트 영역 업데이트 메서드

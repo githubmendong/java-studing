@@ -92,8 +92,11 @@ public class ChatServerThread extends Thread {
 
 
     private synchronized void chatMessage(String message) {
-        ChatServer.log(name + ": " + message);
-        broadcast(name + ": " + message);
+        String currentTime = java.time.LocalTime.now().format(java.time.format.DateTimeFormatter.ofPattern("HH:mm:ss"));
+        String formattedMessage = currentTime + " " + name + ": " + message;
+        ChatServer.log(formattedMessage);
+        broadcast(formattedMessage);
+
     }
 
     private synchronized void chatQuit(PrintWriter pw) {
