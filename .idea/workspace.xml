@@ -9,11 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="Chat GUI 참가 인원 완료 실행 확인">
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="Chat GUI 참가 명단 추가 및 실행 확인">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/ChatServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/chat/gui/ChatWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +57,9 @@
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -100,7 +100,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SDH/IdeaProjects/java-studing/spring-studing/src/main/java/com/poscodx/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;아티팩트&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
@@ -258,14 +258,8 @@
       <workItem from="1692858606986" duration="2863000" />
       <workItem from="1692863010327" duration="13730000" />
       <workItem from="1693012622159" duration="6936000" />
-    </task>
-    <task id="LOCAL-00009" summary="5일차 prob4">
-      <option name="closed" value="true" />
-      <created>1691750668317</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1691750668317</updated>
+      <workItem from="1693180736052" duration="5406000" />
+      <workItem from="1693197988711" duration="41000" />
     </task>
     <task id="LOCAL-00010" summary="개인학습 TEST">
       <option name="closed" value="true" />
@@ -651,15 +645,33 @@
       <option name="project" value="LOCAL" />
       <updated>1693058122537</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Chat GUI 참가 명단 추가 및 실행 확인">
+      <option name="closed" value="true" />
+      <created>1693058750881</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1693058750881</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="8일차 TCP Programming I" />
     <MESSAGE value="8일차 TCP Server finish" />
     <MESSAGE value="8일차 TCP echo server finish" />
     <MESSAGE value="8일차 Thread, DigitalThread" />
@@ -684,7 +696,8 @@
     <MESSAGE value="챕터 4 오류 수정" />
     <MESSAGE value="Chat GUI Timeline 수정 완료 실행 확인 2" />
     <MESSAGE value="Chat GUI 참가 인원 완료 실행 확인" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chat GUI 참가 인원 완료 실행 확인" />
+    <MESSAGE value="Chat GUI 참가 명단 추가 및 실행 확인" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chat GUI 참가 명단 추가 및 실행 확인" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
