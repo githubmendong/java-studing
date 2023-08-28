@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="Chat GUI 참가 명단 추가 및 실행 확인">
+    <list default="true" id="74aba9e4-4b42-49d7-836a-d32ee831747d" name="Changes" comment="cl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -259,15 +261,8 @@
       <workItem from="1692863010327" duration="13730000" />
       <workItem from="1693012622159" duration="6936000" />
       <workItem from="1693180736052" duration="5406000" />
-      <workItem from="1693197988711" duration="41000" />
-    </task>
-    <task id="LOCAL-00010" summary="개인학습 TEST">
-      <option name="closed" value="true" />
-      <created>1691916052214</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1691916052214</updated>
+      <workItem from="1693197988711" duration="836000" />
+      <workItem from="1693210407446" duration="124000" />
     </task>
     <task id="LOCAL-00011" summary="Prob 5 오류 해결">
       <option name="closed" value="true" />
@@ -653,7 +648,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693058750881</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="cl">
+      <option name="closed" value="true" />
+      <created>1693198165733</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1693198165734</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,7 +675,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="8일차 TCP Server finish" />
     <MESSAGE value="8일차 TCP echo server finish" />
     <MESSAGE value="8일차 Thread, DigitalThread" />
     <MESSAGE value="8일차 네트워크 통신" />
@@ -697,7 +699,8 @@
     <MESSAGE value="Chat GUI Timeline 수정 완료 실행 확인 2" />
     <MESSAGE value="Chat GUI 참가 인원 완료 실행 확인" />
     <MESSAGE value="Chat GUI 참가 명단 추가 및 실행 확인" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chat GUI 참가 명단 추가 및 실행 확인" />
+    <MESSAGE value="cl" />
+    <option name="LAST_COMMIT_MESSAGE" value="cl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
